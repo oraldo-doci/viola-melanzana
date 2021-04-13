@@ -1,0 +1,453 @@
+/*............................. GENERAL  .........................*/
+$theme-colors: (
+  "primary": #e4e4e4,
+);
+//like button
+
+.customContainer {
+  margin-top: 5px;
+}
+//like button
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+//Button
+a {
+  color: white;
+  font-family: Comfortaa-Light;
+  font-size: 16px;
+}
+
+button,
+//Bootstrap button
+button.btn.btn-primary[type="button"] {
+  background-color: purple;
+  color: white;
+  padding: 0.55em 1em;
+  text-decoration: none;
+  font-family: Comfortaa-Light;
+  text-align: center;
+  border: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.button-to-trip,
+.default-button,
+.button-navbar,
+input[type="submit"] {
+  border-radius: 5px;
+}
+
+.button-ingredients{
+  background-color: white;
+  color: purple;
+  height: 35px;
+  width: 100px;
+  font-family: Comfortaa-Light;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.button-image{
+  background-color: #e5e5e5;
+}
+
+//CARD
+.card {
+  width: 18rem;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+//Center element
+.case {
+  display: block;
+  font-family: Comfortaa-Light;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 25%;
+  background-color: #e5e5e5;
+}
+
+.app,
+.card,
+.description-profile,
+.img-container,
+.logo,
+.modal-body,
+.modal-title.h4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Comfortaa-Light;
+}
+
+//INPUT STYLE
+input[type="submit"] {
+  //Button "submit"
+  background-color: #455753;
+  border: none;
+  color: white;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#searchBar-ingredients{
+  width: 420px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ #filter-bar{
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+input[type="text"] {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  padding-left: 40px;
+}
+
+::placeholder {
+  color:white;
+}
+
+//TEXT
+h1,
+h2,
+.travel-photo-text {
+  font-family: Comfortaa-Medium;
+}
+
+h3,
+p {
+  font-family: Comfortaa-Light;
+}
+
+/*............................. CALENDAR  .........................*/
+.app {
+  width: 900px;
+}
+
+input.datapicker-input[type="text"] {
+  background-image: url("/agenda.png");
+  background-size: 20px;
+  background-position: 4px 2px;
+}
+
+//change color of selected day calendar
+.react-datepicker__day.react-datepicker__day--selected,
+.rbc-event.rbc-event-allday {
+  background-color: #75d8a2;
+  text-align: center;
+}
+//change style of bootsrap button in page
+.button-to-do-list.btn.btn-primary[type="button"],
+.button-activities.btn.btn-primary[type="button"],
+.button-modal-footer.btn.btn-primary[type="button"],
+.button-modal-footer.btn.btn-secondary[type="button"] {
+  padding: 0.55em 1em;
+  font-size: 12px;
+  font-family: Comfortaa-Light;
+}
+#dropdown-split-basic{
+
+  background-color: white;
+  color:purple;
+}
+
+.dropdown-toggle:empty::after{
+  color: purple;
+}
+
+.main-homePage{
+  background-color: #e5e5e5;
+  width: 100%;
+}
+
+.dropdown-item[role="button"] {
+  color: purple;
+}
+
+.calendar-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+}
+
+ul {
+  margin-right: 8px;
+}
+
+
+/*............................. HEADER STYLE  .........................*/
+
+.button-text {
+  color: white;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+  &:link {
+    color: white;
+    text-decoration: none;
+  }
+  &:visited {
+    color: white;
+    text-decoration: none;
+  }
+  &:active {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+//className-->ButtonGroup
+
+.description-profile {
+  width: 600px;
+}
+
+.img-container {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.img-profile {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+/*............................. LOGIN PAGE  .........................*/
+.default-button {
+  margin: 4px 2px;
+  padding: 0.55em 1.2em;
+  transition-duration: 0.4s;
+  &:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s ease;
+  }
+}
+
+.img-prof-log {
+  border-radius: 50%;
+}
+
+.logincover {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 96vh;
+  width: 50%;
+}
+
+.logo {
+  padding-top: 15%;
+  padding-bottom: 100px;
+}
+
+.welcome {
+  font-size: 20px;
+}
+
+
+
+/*............................. NAVBAR STYLE  .........................*/
+.button-navbar {
+  margin: 4px 14px;
+  font-size: 12px;
+}
+
+.navbar {
+  &-text {
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+  font-family: Comfortaa-Light;
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.navbar.navbar-expand.navbar-light.bg-primary.sticky-top {
+  padding: 0 5px;
+}
+
+
+/*................................ UPLOAD ..............................*/
+input[type="file"] {
+  margin-left: 5px;
+}
+
+
+@font-face {
+  font-family: "Comfortaa-Regular";
+  src: url("/fonts/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Comfortaa-SemiBold";
+  src: url("/fonts/Comfortaa-SemiBold.ttf");
+}
+
+// Pretty Checkbox React
+
+// BOOSTRAP IMPORT
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// API STYLE
+.api {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-form {
+  width: auto;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.search-form input {
+  border: none;
+  border-bottom: 0.1rem solid #ccc;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  height: 3rem;
+}
+
+.search-form input[type="text"] {
+
+  font-size: 1rem;
+  padding: 0 2rem;
+  width: 300px;
+
+  height: 50px;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  font-family: Comfortaa-Light;
+
+  float: left;
+}
+
+.search-form input[type="submit"] {
+  width: 100px;
+  height: 50px;
+  padding: 0 1rem;
+
+  text-transform: uppercase;
+  background-color:white;
+  color: purple;
+  font-family: Comfortaa-Light;
+}
+
+.recipes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.recipe h2 {
+  color: purple;
+  font-weight: bold;
+}
+
+.recipe a{
+  color: purple;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.card {
+  margin: 3rem;
+  min-height: 550px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 2rem 3rem 5rem #aaa;
+}
+
+.card-deck{
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+.card-img-top{
+  height: 200px;
+  padding: 0px 10px 0px 10px;
+}
+
+.ingredient-list {
+  margin-top: 1rem;
+  background-color: #e5e5e5;
+  border-radius: 0.5rem;
+}
+
+.ingredient-list li {
+  margin: 0.5rem 0;
+  list-style-type: none;
+}
+
+.ingredient-text {
+  color: purple;
+  font-family: Comfortaa-Light;
+  padding-right: 0.5rem;
+
+}
+
+.calendar-background{
+  background-color: #e5e5e5;
+}
+
+.nav-link a{
+  font-weight: bold;
+}
+
+.coverCaption{
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.coverCaptionCopy{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+@import "../node_modules/react-big-calendar/lib/css/react-big-calendar.css"
+
